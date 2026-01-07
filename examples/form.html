@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Form Example</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../favicon.png?v=2">
+</head>
+
+<body>
+
+<div class="page">
+
+    <header>
+
+        <a class="topheader" href="../index.html">
+            <h1>Clotilde Mussett</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../courses.html">Courses</a></li>
+                <li><a href="../examples/index.html">Examples</a>
+                    <ul>
+                        <li><a href="../examples/table.html">Table</a></li>
+                        <li><a href="../examples/form.html">Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="../gallery/index.html">Gallery</a>
+                    <ul>
+                        <li><a href="../gallery/photo1.html">My Dog</a></li>
+                        <li><a href="../gallery/photo2.html">Bella and I</a></li>
+                        <li><a href="../gallery/photo3.html">Photo of Flower</a></li>
+                    </ul>
+                </li>
+                <li><a href="../design/index.html">Design</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <br>
+
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+
+            <fieldset>
+                <legend>Login</legend>
+
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+
+                <br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Origin</legend>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" name="birthday" id="birthday">
+
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country">
+
+                <br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Interests <em>(Choose as many as you want)</em></legend>
+
+                <input type="checkbox" name="skiing" value="skiing" id="skiing">
+                <label for="skiing">Skiing</label><br>
+
+                <input type="checkbox" name="biking" value="biking" id="biking">
+                <label for="biking">Biking</label><br>
+
+                <input type="checkbox" name="running" value="running" id="running">
+                <label for="running">Running</label><br>
+
+                <input type="checkbox" name="sleeping" value="sleeping" id="sleeping">
+                <label for="sleeping">Sleeping</label><br>
+
+                <input type="checkbox" name="reading" value="reading" id="reading">
+                <label for="reading">Reading</label><br>
+
+                <label for="sleepingInterestLevel">Interest level in competitive sleeping:</label><br>
+        Low <input type="range" name="sleepingInterestLevel" id="sleepingInterestLevel" value="50"> High
+
+                <br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Class</legend>
+
+                <input type="radio" name="freshman" id="freshman" value="freshman">
+                <label for="freshman">Freshman</label><br>
+
+                <input type="radio" name="sophomore" id="sophomore" value="sophomore">
+                <label for="sophomore">Sophomore</label><br>
+
+                <input type="radio" name="junior" id="junior" value="junior">
+                <label for="junior">Junior</label><br>
+
+                <input type="radio" name="senior" id="senior" value="senior">
+                <label for="senior">Senior</label><br>
+
+                <label for="graduationYear">Graduation Year</label>
+                <select id="graduationYear" name="graduationYear">
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+
+            </fieldset> <br>
+
+            <input type="submit" value="Submit Form">
+
+        </form>
+
+        <br>
+
+    </main>
+
+    <footer id="copyright">
+
+        Copyright &copy; 2025, by <a href="mailto:ce30muss@siena.edu">Clotilde Mussett</a>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
